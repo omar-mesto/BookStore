@@ -7,7 +7,7 @@ export default defineNuxtConfig({
       typeCheck: true,
       strict: true,
     },
-    css: ['~/assets/css/main.css', "@/assets/styles/scss/custom.scss"],
+    css: ['~/assets/css/main.css', "~/assets/styles/scss/custom.scss","~/assets/styles/scss/animate/animate.css",],
     postcss: {
       plugins: {
         tailwindcss: {},
