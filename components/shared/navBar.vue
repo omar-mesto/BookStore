@@ -1,9 +1,9 @@
 <template>
     <nav class="bg-[#f3efe3]">
         <div class="max-w-screen-lg flex flex-wrap items-center justify-between mx-auto p-4">
-            <a class="flex items-center space-x-3"><span class="self-center text-3xl cursor-pointer font-semibold whitespace-nowrap">Book Store</span></a>
+            <a class="flex items-center text-[#f28545] space-x-3"><span class="self-center text-3xl cursor-pointer font-semibold whitespace-nowrap">Book Store</span></a>
             <div class="flex md:order-2 space-x-3 md:space-x-0">
-                <button v-if="!havToken" @click="$router.push('../../../Auth/logIn')" class="hover:bg-gray-800 hover:text-[#f3efe3] border rounded-full border-black text-center px-4 py-2">Login</button>
+                <button v-if="!havToken" @click="$router.push('../../../Auth/logIn')" class="hover:bg-[#f28545] hover:text-[#f3efe3] border hover:border-[#f28545] rounded-full border-black text-center px-4 py-2">Login</button>
                 <div v-else class="flex items-center md:order-2 space-x-3 md:space-x-0 ">
                     <button class="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
                         <span class="sr-only">Open user menu</span>
