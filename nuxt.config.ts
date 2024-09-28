@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-    modules: ['nuxt-swiper'],
+    modules: ['nuxt-swiper', 'nuxt-aos'],
     plugins: [
       { src: '~/plugins/flowbite', mode: 'client' }
     ],

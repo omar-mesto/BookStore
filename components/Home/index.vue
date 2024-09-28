@@ -1,6 +1,7 @@
 <template>
     <div>
       <HomeHeader/>
+      <HomeAuthorForums/>
     </div>
   </template>
 
